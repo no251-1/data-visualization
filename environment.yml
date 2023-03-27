@@ -11,3 +11,4 @@ dependencies:
   - ipympl
   - pandas
   - openpyxl
+  - seaborn
