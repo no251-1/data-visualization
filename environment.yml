@@ -1,10 +1,11 @@
-name: mpl_brochure_binder
+name: data_visualization_binder
 channels:
   - conda-forge
   - default
 dependencies:
   - jupytext
-  - jupyterlab
+  - jupyterlab>=3
+  - ipywidgets>=7.6
   - python
   - numpy
   - matplotlib-base
@@ -12,3 +13,5 @@ dependencies:
   - pandas
   - openpyxl
   - seaborn
+  - plotly
+  - scikit-learn
